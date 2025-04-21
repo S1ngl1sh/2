@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="description" content="Get in touch with SINGLISH - Learn English through music with interactive lessons.">
+    <title>Contact SINGLISH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SINGLISH</div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()" role="button" aria-label="Toggle navigation menu">☰</div>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <p>We're excited to connect with you! Reach out to us through your preferred platform below.</p>
+        <div class="social-links">
+            <a href="/cdn-cgi/l/email-protection#6c1f191c1c031e182c1f05020b00051f04420f0301" title="Email us" aria-label="Send an email to SINGLISH support"><i class="fas fa-envelope"></i></a>
+            <a href="https://twitter.com/SINGLISH_edu" target="_blank" title="Follow us on Twitter" aria-label="Visit SINGLISH on Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://discord.gg/SINGLISH" target="_blank" title="Join our Discord" aria-label="Join the SINGLISH Discord community"><i class="fab fa-discord"></i></a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 SINGLISH. All rights reserved. Unauthorized copying or reproduction of this content is prohibited.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script>
+        (function() {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement('script');
+                    d.innerHTML = "window.__CF$cv$params={r:'92b002b9db62bd37',t:'MTc0Mzc2MTM3MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName('head')[0].appendChild(d);
+                }
+            }
+            if (document.body) {
+                var a = document.createElement('iframe');
+                a.height = 1;
+                a.width = 1;
+                a.style.position = 'absolute';
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = 'none';
+                a.style.visibility = 'hidden';
+                document.body.appendChild(a);
+                if ('loading' !== document.readyState) c();
+                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else {
+                    var e = document.onreadystatechange || function() {};
+                    document.onreadystatechange = function(b) {
+                        e(b);
+                        'loading' !== document.readyState && (document.onreadystatechange = e, c());
+                    };
+                }
+            }
+        })();
+    </script>
+</body>
+</html>
